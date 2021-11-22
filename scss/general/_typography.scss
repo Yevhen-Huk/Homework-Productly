@@ -1,0 +1,38 @@
+.body {
+  font-family: "Poppins" sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: $main-color;
+}
+.h1 {
+  font-size: 44px;
+  line-height: 54px;
+}
+
+.h3 {
+  font-size: 36px;
+  text-align: center;
+  align-items: center;
+  display: inline-block;
+  margin-top: 3px;
+  margin-bottom: 5px;
+}
+
+.h4 {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+}
+
+.banner__p {
+  font-size: 18px;
+  line-height: 28px;
+  color: $secondary-color;
+}
+
+li {
+  font-size: 16px;
+  line-height: 35px;
+  color: $secondary-color;
+}

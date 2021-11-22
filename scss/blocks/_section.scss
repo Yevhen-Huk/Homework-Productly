@@ -1,0 +1,50 @@
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  min-width: 300px;
+}
+
+.banner__div,
+.validation__div,
+.decision__div,
+.optimisation__div {
+  width: 50%;
+  min-width: 300px;
+}
+
+.banner img,
+.validation img,
+.decision img,
+.optimisation img {
+  object-fit: cover;
+  width: 50%;
+  min-width: 300px;
+}
+
+.decision__div {
+  padding: 0 80px;
+  min-width: 400px;
+  box-sizing: border-box;
+
+}
+
+.validation__title-bold {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+  color: #2f281e;
+  margin-bottom: 12px;
+}
+
+.li__styled {
+  list-style-image: url(/іmages/tick.svg);
+  list-style-position: outside;
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #544837;
+  width: 80%;
+}
