@@ -6,9 +6,8 @@
     <meta name="viewport"
         content="width=device-width, user-scalable=no initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
-    <link href="css/old-styles.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/978454c9f7.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Raleway:wght@300;400;700&display=swap" rel="stylesheet"><link href="css/style.css" rel="stylesheet">
     <script src="https://use.fontawesome.com/535719b37d.js"></script>
     <title>Productly</title>
 </head>
@@ -17,34 +16,34 @@
     <div class="wrapper">
         <header class="header">
                 <div class="header__logo">
-                    <a class="header__logo-link" href="#" target="_blank" title="logo">
-                        <img src="іmages/logo.png" alt="Productly">
+                    <a class="header__logo-link link" href="#" target="_blank" title="logo">
+                        <img class="header__logo-img" src="іmages/logo.svg" alt="Productly">
+                        <span class="header__logo-name">Productly</span>
                     </a>
                 </div>
                 <nav class="header__nav">
-                    <ul>
-                        <li class="header__nav-item"><a class="header__nav-link" href="#">Product</a></li>
-                        <li class="header__nav-item"><a class="header__nav-link" href="#">Customers</a></li>
-                        <li class="header__nav-item"><a class="header__nav-link" href="#">Pricing</a></li>
-                        <li class="header__nav-item"><a class="header__nav-link" href="#">Resources</a></li>
+                    <ul class="header__nav-list">
+                        <li class="header__nav-item"><a class="header__nav-link link" href="#">Product</a></li>
+                        <li class="header__nav-item"><a class="header__nav-link link" href="#">Customers</a></li>
+                        <li class="header__nav-item"><a class="header__nav-link link" href="#">Pricing</a></li>
+                        <li class="header__nav-item"><a class="header__nav-link link" href="#">Resources</a></li>
                     </ul>
                 </nav>
                 <div class="header__buttons">
-                    <a class="btn btn_sign-in" href="#"><span class="blocked">Sign In</span></a>
-                    <a class="btn btn_sign_up" href="#"><span class="blocked">Sign Up</span></a>
+                    <a class="btn btn_sign-in btn_header-position link" href="#"><span class="blocked">Sign In</span></a>
+                    <a class="btn btn_sign_up btn_header-position link" href="#"><span class="blocked">Sign Up</span></a>
                 </div>
-            <hr>
         </header>
-        <main>
-                <section class="section banner">
-                    <div class="banner__div">
+        <main class="main">
+                <section class="main__section main__banner">
+                    <div class="banner-div">
                         <h1 class="h1">The design Thinking superpowers</h1>
-                        <p class="banner__p">Tools, tutorials, design and innovation exprerts, all in one place! The most
+                        <p class="banner__p">Tools, tutorials, design and innovati linkon exprerts, all in one place! The most
                             intuitive way to imagine your
                             next user experience.</p>
                         <div class="banner__btn">
-                            <a class="btn btn_sign_up" href="#"><span class="blocked">Get started</span></a>
-                            <a class="btn btn_watch" href="#">
+                            <a class="btn btn_sign_up link btn_get-started" href="#"><span class="blocked">Get started</span></a>
+                            <a class="btn btn_watch link" href="#">
                                 <span class="blocked">
                                     <i class="fa fa-play" aria-hidden="true"></i>
                                     <span>Watch the Video</span>
@@ -52,39 +51,41 @@
                             </a>
                         </div>
                     </div>
-                    <img src="іmages/section1.png">
+                    <div class="section__image">
+                        <img src="іmages/section1.png" alt="Section Image">
+                    </div>
                 </section>
-                <section class="section feature">
-                    <div class="feature__title">
-                        <h3 class="h3">We design tools to unveil your superpowers</h3>
+                <section class="main__section main__feature">
+                    <div class="main__feature-title">
+                        <h3 class="h3 h3_feature">We design tools to unveil your superpowers</h3>
                     </div>
 
-                    <div class="feature__list">
-                        <div class="feature__item">
-                            <img src="іmages/icon1.svg">
+                    <div class="main__feature-list">
+                        <div class="main__feature-item">
+                            <img src="іmages/icon1.svg" alt="Section Image">
                             <h4 class="h4">First click test</h4>
                             <p>While most people enjoy casino gambling,</p>
                         </div>
-                        <div class="feature__item">
-                            <img src="іmages/icon2.svg">
+                        <div class="main__feature-item">
+                            <img src="іmages/icon2.svg" alt="Section Image">
                             <h4 class="h4">Design surveys</h4>
                             <p>Sports betting, lottery and bingo playing for the fun</p>
                         </div>
-                        <div class="feature__item">
-                            <img src="іmages/icon3.svg">
+                        <div class="main__feature-item">
+                            <img src="іmages/icon3.svg" alt="Section Image">
                             <h4 class="h4">Preference tests</h4>
                             <p>The Myspace page defines the individual.</p>
                         </div>
-                        <div class="feature__item">
-                            <img src="іmages/icon4.svg">
+                        <div class="main__feature-item">
+                            <img src="іmages/icon4.svg" alt="Section Image">
                             <h4 class="h4">Five second test</h4>
                             <p>Personal choices and the overall personality of the person.</p>
                         </div>
                     </div>
-                    <a class="feature__link btn btn_sign_up" href="#"><span class="blocked">Sign up now</span></a>
+                    <a class="btn_feature btn btn_sign_up link" href="#"><span class="blocked">SIGN UP NOW</span></a>
                 </section>
-                <section class="section validation">
-                    <div class="validation__div">
+                <section class="main__section main__validation">
+                    <div class="validation-div">
                         <p>Effortless Validation for</p>
                         <h3 class="h3">Design Professionals</h3>
                         <p>The Myspace page defines the individual, his or her characteristics, traits, personal choices and
@@ -98,11 +99,15 @@
                         <p class="validation__title-bold">Custom Design designers</p>
                         <p>If you are looking for a new way to promote your business that won’t cost you more money,</p>
                     </div>
-                    <img class="section__image" src="іmages/section3.png">
+                    <div class="section__image">
+                        <img src="іmages/section3.png" alt="Section Image">
+                    </div>
                 </section>
-                <section class="decision">
-                    <img class="section__image" src="іmages/section4.png">
-                    <div class="decision__div">
+                <section class="main__section main__decision">
+                    <div class="section__image">
+                        <img class="section__image" src="іmages/section4.png" alt="Section Image">
+                    </div>
+                    <div class="decision-div">
                         <p>Easier decision making for</p>
                         <h3 class="h3">Product Managers</h3>
                         <p>The Myspace page defines the individual, his or her characteristics, traits, personal choices and
@@ -117,47 +122,50 @@
                         </ul>
                     </div>
                 </section>
-                <section class="optimisation">
-                    <div class="optimisation__div">
+                <section class="main__section main__optimisation">
+                    <div class="optimisation-div">
                         <p>Optimisation for</p>
                         <h3 class="h3">Marketers</h3>
                         <p>Few would argue that, despite the advancements of feminism over the past three decades, women
                             still face a
                             double
                             standard when it comes to their behavior.</p>
-                        <p class="title__bold">Accessory makers</p>
+                        <p class="optimisation__title-bold">Accessory makers</p>
                         <p>While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun
                         </p>
-                        <p class="title__bold">Alterationists</p>
+                        <p class="optimisation__title-bold">Alterationists</p>
                         <p>If you are looking for a new way to promote your business that won’t cost you more money,</p>
-                        <p class="title__bold">Custom Design designers</p>
+                        <p class="optimisation__title-bold">Custom Design designers</p>
                         <p>If you are looking for a new way to promote your business that won’t cost you more money,</p>
                     </div>
-                    <img class="section__image" src="іmages/section5.png">
+                    <div class="section__image">
+                        <img class="section__image" src="іmages/section5.png" alt="Section Image">
+                    </div>
                 </section>
             <hr>
         </main>
         <footer class="footer">
                 <div class="footer__logo">
-                    <a class="footer__logo-link" href="#" target="_blank" title="logo">
-                        <img src="іmages/logo.png" alt="Productly">
+                    <a class="footer__logo-link link" href="#" target="_blank" title="logo">
+                        <img class="footer__logo-img" src="іmages/logo.svg" alt="Productly">
+                        <span class="footer__logo-name">Productly</span>
                     </a>
                 </div>
                 <nav class="footer__nav">
                     <ul class="footer__list">
-                        <li class="footer__nav-item"><a class="footer__nav-link" href="#">About us</a></li>
-                        <li class="footer__nav-item"><a class="footer__nav-link" href="#">Blog</a></li>
-                        <li class="footer__nav-item"><a class="footer__nav-link" href="#">Contact</a></li>
-                        <li class="footer__nav-item"><a class="footer__nav-link" href="#">FAQ</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link link" href="#">About us</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link link" href="#">Blog</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link link" href="#">Contact</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link link" href="#">FAQ</a></li>
                     </ul>
                 </nav>
 
                 <nav class="footer__nav">
                     <ul class="footer__list">
-                        <li class="footer__nav-item"><a class="footer__nav-link" href="#">Disclaimer</a></li>
-                        <li class="footer__nav-item"><a class="footer__nav-link" href="#">Financing</a></li>
-                        <li class="footer__nav-item"><a class="footer__nav-link" href="#">Privacy Policy</a></li>
-                        <li class="footer__nav-item"><a class="footer__nav-link" href="#">Terms of Service</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link link" href="#">Disclaimer</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link link" href="#">Financing</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link link" href="#">Privacy Policy</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link link" href="#">Terms of Service</a></li>
                     </ul>
                 </nav>
                 <div class="footer__submit-field">

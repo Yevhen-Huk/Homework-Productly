@@ -1,50 +1,71 @@
-.section {
+.main {
+  &__section {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
   align-items: center;
   min-width: 300px;
-}
 
-.banner__div,
-.validation__div,
-.decision__div,
-.optimisation__div {
+  }
+
+  .banner-div,
+  .validation-div,
+  .decision-div,
+  .optimisation-div {
   width: 50%;
   min-width: 300px;
+    max-width: 486px;
+    line-height: 25px;
+    ~ {
+      padding: 15px 0;
+    }
 }
 
-.banner img,
-.validation img,
-.decision img,
-.optimisation img {
-  object-fit: cover;
-  width: 50%;
-  min-width: 300px;
-}
+  .section__image {
+    object-fit: cover;
+    width: 45%;
+    min-width: 300px;
+  }
 
-.decision__div {
-  padding: 0 80px;
-  min-width: 400px;
-  box-sizing: border-box;
+  .decision-div {
+    padding: 0 0 0 75px;
+    min-width: 400px;
+    box-sizing: border-box;
 
 }
+  &__decision {
+    padding-top: 50px;
+  }
 
-.validation__title-bold {
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 26px;
-  color: #2f281e;
-  margin-bottom: 12px;
-}
+  &__validation{
+  padding-bottom: 80px;
+  }
 
-.li__styled {
-  list-style-image: url(/іmages/tick.svg);
-  list-style-position: outside;
-  margin-bottom: 30px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  color: #544837;
-  width: 80%;
+  &__optimisation {
+    padding-top: 95px;
+    padding-bottom: 100px;
+    margin-bottom: 110px;
+  }
+
+
+  .validation__title-bold,
+  .optimisation__title-bold
+  {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2f281e;
+    margin-bottom: 12px;
+  }
+
+  .li__styled {
+    list-style-image: url(/іmages/tick.svg);
+    list-style-position: outside;
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+    width: 80%;
+  }
+
 }

@@ -1,0 +1,25 @@
+.header,
+.footer {
+
+  &__logo {
+    height: 32px;
+    width: 185px;
+    position: relative;
+  }
+
+  &__logo-img {
+    width: 30px;
+    height: 30px;
+  }
+
+  &__logo-name {
+    display: inline-block;
+    padding: 9px;
+    font-size: 32px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -70%);
+    color: #173A56;
+  }
+}

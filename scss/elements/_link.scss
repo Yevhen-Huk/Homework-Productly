@@ -1,5 +1,8 @@
-link {
+.link {
   text-decoration: none;
   color: black;
   cursor: pointer;
+  position: relative;
+  left: 0;
+  right: 0;
 }
