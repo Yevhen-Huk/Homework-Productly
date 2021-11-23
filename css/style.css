@@ -44,7 +44,7 @@ li {
   min-width: 320px;
   margin: auto;
 }
-.body .wrapper {
+.body__wrapper {
   max-width: 1245px;
   min-width: 300px;
   margin: 0 auto;
@@ -283,7 +283,7 @@ li {
   box-sizing: border-box;
 }
 
-.btn_sign_up {
+.btn_sign-up {
   background-color: #ff9900;
   color: white;
 }

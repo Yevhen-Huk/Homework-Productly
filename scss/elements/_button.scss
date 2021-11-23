@@ -17,8 +17,8 @@
   box-sizing: border-box;
 }
 
-.btn_sign_up {
-  background-color: #ff9900;
+.btn_sign-up {
+  background-color: $btn-sign-up;
   color: white;
 }
 
@@ -31,7 +31,7 @@
   line-height: 24px;
   padding: 14px 20px;
   text-decoration-line: underline;
-  color: #ff9900;
+  color: $btn-sign-up;
 }
 
 .btn_header-position {
