@@ -6,8 +6,12 @@
   margin: auto;
 
     &__wrapper {
-      max-width: 1245px;
+      max-width: 1150px;
       min-width: 300px;
       margin: 0 auto;
+
+      @media screen and (max-width: $md) {
+        padding: 0 10px;
+      }
     }
 }

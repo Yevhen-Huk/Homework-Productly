@@ -6,11 +6,20 @@
 
   .banner__p {
     margin-bottom: 45px;
+
+    @media screen and (max-width: $md){
+      text-align: center;
+    }
   }
 
   .banner__btn {
     display: flex;
     flex-wrap: wrap;
+
+    @media screen and (max-width: $md) {
+    flex-direction: column;
+      align-items: center;
+    }
   }
 
   .banner .btn_sign_up {

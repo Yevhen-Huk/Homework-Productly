@@ -21,6 +21,10 @@
                         <span class="header__logo-name">Productly</span>
                     </a>
                 </div>
+                <div class="header__menu-btn" id="jsMenu-Mobile">
+                    <i class="header__menu-btn__i fa fa-sort-desc" aria-hidden="true"></i>
+                </div>
+
                 <nav class="header__nav">
                     <ul class="header__nav-list">
                         <li class="header__nav-item"><a class="header__nav-link link" href="#">Product</a></li>
@@ -42,7 +46,7 @@
                             intuitive way to imagine your
                             next user experience.</p>
                         <div class="banner__btn">
-                            <a class="btn btn_sign_up link btn_get-started" href="#"><span class="blocked">Get started</span></a>
+                            <a class="btn btn_sign-up link btn_get-started" href="#"><span class="blocked">Get started</span></a>
                             <a class="btn btn_watch link" href="#">
                                 <span class="blocked">
                                     <i class="fa fa-play" aria-hidden="true"></i>
@@ -52,7 +56,7 @@
                         </div>
                     </div>
                     <div class="section__image">
-                        <img src="../іmages/section1.png" alt="Section Image">
+                        <img class="section__image-adj" src="іmages/section1.png" alt="Section Image">
                     </div>
                 </section>
                 <section class="main__section main__feature">
@@ -62,27 +66,27 @@
 
                     <div class="main__feature-list">
                         <div class="main__feature-item">
-                            <img src="../іmages/icon1.svg" alt="Section Image">
+                            <img class="main__feature-icon" src="../іmages/icon1.svg" alt="Section Image">
                             <h4 class="h4">First click test</h4>
-                            <p>While most people enjoy casino gambling,</p>
+                            <p class="main__feature-subscription">While most people enjoy casino gambling,</p>
                         </div>
                         <div class="main__feature-item">
-                            <img src="../іmages/icon2.svg" alt="Section Image">
+                            <img class="main__feature-icon" src="../іmages/icon2.svg" alt="Section Image">
                             <h4 class="h4">Design surveys</h4>
-                            <p>Sports betting, lottery and bingo playing for the fun</p>
+                            <p class="main__feature-subscription">Sports betting, lottery and bingo playing for the fun</p>
                         </div>
                         <div class="main__feature-item">
-                            <img src="../іmages/icon3.svg" alt="Section Image">
+                            <img class="main__feature-icon" src="../іmages/icon3.svg" alt="Section Image">
                             <h4 class="h4">Preference tests</h4>
-                            <p>The Myspace page defines the individual.</p>
+                            <p class="main__feature-subscription">The Myspace page defines the individual.</p>
                         </div>
                         <div class="main__feature-item">
-                            <img src="../іmages/icon4.svg" alt="Section Image">
+                            <img class="main__feature-icon" src="../іmages/icon4.svg" alt="Section Image">
                             <h4 class="h4">Five second test</h4>
-                            <p>Personal choices and the overall personality of the person.</p>
+                            <p class="main__feature-subscription">Personal choices and the overall personality of the person.</p>
                         </div>
                     </div>
-                    <a class="btn_feature btn btn_sign_up link" href="#"><span class="blocked">SIGN UP NOW</span></a>
+                    <a class="btn_feature btn btn_sign-up link" href="#"><span class="blocked">SIGN UP NOW</span></a>
                 </section>
                 <section class="main__section main__validation">
                     <div class="validation-div">
@@ -100,12 +104,12 @@
                         <p>If you are looking for a new way to promote your business that won’t cost you more money,</p>
                     </div>
                     <div class="section__image">
-                        <img src="../іmages/section3.png" alt="Section Image">
+                        <img class="section__image-adj" src="../іmages/section3.png" alt="Section Image">
                     </div>
                 </section>
                 <section class="main__section main__decision">
                     <div class="section__image">
-                        <img class="section__image" src="../іmages/section4.png" alt="Section Image">
+                        <img class="section__image-adj" src="../іmages/section4.png" alt="Section Image">
                     </div>
                     <div class="decision-div">
                         <p>Easier decision making for</p>
@@ -113,7 +117,7 @@
                         <p>The Myspace page defines the individual, his or her characteristics, traits, personal choices and
                             the overall
                             personality of the person.</p>
-                        <ul>
+                        <ul class="main__decision__list">
                             <li class="li__styled"><span>Never worry about overpaying for your energy again.</span></li>
                             <li class="li__styled">We will only switch you to energy companies that we trust and will treat
                                 you right
@@ -139,7 +143,7 @@
                         <p>If you are looking for a new way to promote your business that won’t cost you more money,</p>
                     </div>
                     <div class="section__image">
-                        <img class="section__image" src="../іmages/section5.png" alt="Section Image">
+                        <img  class="section__image-adj" src="../іmages/section5.png" alt="Section Image">
                     </div>
                 </section>
             <hr>
@@ -152,28 +156,34 @@
                     </a>
                 </div>
                 <nav class="footer__nav">
-                    <ul class="footer__list">
-                        <li class="footer__nav-item"><a class="footer__nav-link link" href="#">About us</a></li>
-                        <li class="footer__nav-item"><a class="footer__nav-link link" href="#">Blog</a></li>
-                        <li class="footer__nav-item"><a class="footer__nav-link link" href="#">Contact</a></li>
-                        <li class="footer__nav-item"><a class="footer__nav-link link" href="#">FAQ</a></li>
+                    <ul class="footer__list footer__list-left">
+                        <li class="footer__nav-item link"><a class="footer__nav-link link" href="#">About us</a></li>
+                        <li class="footer__nav-item link"><a class="footer__nav-link link" href="#">Blog</a></li>
+                        <li class="footer__nav-item link"><a class="footer__nav-link link" href="#">Contact</a></li>
+                        <li class="footer__nav-item link"><a class="footer__nav-link link" href="#">FAQ</a></li>
                     </ul>
                 </nav>
 
                 <nav class="footer__nav">
-                    <ul class="footer__list">
-                        <li class="footer__nav-item"><a class="footer__nav-link link" href="#">Disclaimer</a></li>
-                        <li class="footer__nav-item"><a class="footer__nav-link link" href="#">Financing</a></li>
-                        <li class="footer__nav-item"><a class="footer__nav-link link" href="#">Privacy Policy</a></li>
-                        <li class="footer__nav-item"><a class="footer__nav-link link" href="#">Terms of Service</a></li>
+                    <ul class="footer__list footer__list-right">
+                        <li class="footer__nav-item link"><a class="footer__nav-link link" href="#">Disclaimer</a></li>
+                        <li class="footer__nav-item link"><a class="footer__nav-link link" href="#">Financing</a></li>
+                        <li class="footer__nav-item link"><a class="footer__nav-link link" href="#">Privacy Policy</a></li>
+                        <li class="footer__nav-item link"><a class="footer__nav-link link" href="#">Terms of Service</a></li>
                     </ul>
                 </nav>
                 <div class="footer__submit-field">
                     <input class="footer__field" type="email">
-                    <input class="btn btn_sign-up btn_submit" type="submit" value="Sign up Now">
+                    <input class="btn btn_sign-up btn_submit link" type="submit" value="Sign up Now">
                 </div>
         </footer>
     </div>
+    <script
+            src="https://code.jquery.com/jquery-3.6.0.js"
+            integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+            crossorigin="anonymous">
+    </script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

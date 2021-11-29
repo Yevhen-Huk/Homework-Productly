@@ -1,8 +1,8 @@
 .main {
   &__feature {
-    margin-top: 50px;
+    margin-top: 100px;
     margin-bottom: 150px;
-    padding: 0 25px 62px;
+
 
   }
 
@@ -18,11 +18,35 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+
+    @media screen and (max-width: $md){
+      justify-content: center;
+    }
   }
 
   &__feature-item {
-    min-width: 280px;
+    min-width: 260px;
     width: 25%;
+
+    @media screen and (max-width: $md){
+      min-width: 146px;
+      outline: 1px solid $secondary-color;
+      border-radius: 4px;
+      margin: 2px;
+    }
+  }
+
+  &__feature-icon {
+    @media screen and (max-width: $md) {
+      display: block;
+      margin: 15px auto 0;
+    }
+  }
+
+  &__feature-subscription {
+    @media screen and (max-width: $md) {
+      text-align: center;
+    }
   }
 
   .h3_feature {
@@ -36,5 +60,9 @@
     padding: 14px 33px;
     font-weight: bold;
     transform: translate(-49px, 0);
+
+    @media screen and (max-width: $md) {
+      transform: translate(0, 0);
+    }
   }
 }

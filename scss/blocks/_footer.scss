@@ -4,29 +4,71 @@
   flex-wrap: wrap;
   align-items: flex-start;
 
+  @media screen and (max-width: $md) {
+    padding: 0;
+    align-items: normal;
+
+  }
+
 
   &__logo {
-  align-self: flex-start;
-  flex: 6 1 auto;
+    align-self: flex-start;
+    flex: 6 1 auto;
+    order: -2;
+
+    @media screen and (max-width: $md){
+      margin: 0 auto;
+      padding-bottom: 20px;
+      width: 100%;
+    }
 }
 
   &__nav {
-  flex: 2 1 auto;
-  padding-top: 45px;
-  padding-right: 75px;
+    flex: 2 1 auto;
+    padding-top: 45px;
+    padding-right: 75px;
+
+    @media screen and (max-width: $md) {
+      padding: 0;
+      flex: 1;
+    }
+
+    &-item {
+
+      @media screen and (max-width: $md){
+        margin-bottom: 4px;
+        border-radius: 4px;
+        background-color: #f1b67c;
+        opacity: 50%;
+        text-align: center;
+      }
+
+    }
   }
 
   &__list {
-  list-style: none;
+    list-style: none;
+    padding-left: 10px;
+
+
+    &-left {
+      margin-right: 5px;
+    }
   }
 
   &__nav,
   &__submit-field {
-  align-self: flex-end;
+    align-self: flex-end;
   }
 
   &__submit-field {
-  padding-bottom: 48px;
+    padding-bottom: 48px;
+
+    @media screen and (max-width: $md){
+      order: -1;
+      width: 100%;
+      padding-bottom: 0;
+    }
   }
 
   &__nav-item {
@@ -40,7 +82,7 @@
 
   &__field {
     margin-bottom: 18px;
-    width: 325px;
+    max-width: 325px;
     height: 48px;
     border-radius: 4px;
     box-sizing: border-box;

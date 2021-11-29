@@ -3,7 +3,6 @@
 
   &__logo {
     height: 32px;
-    width: 185px;
     position: relative;
   }
 
@@ -20,6 +19,6 @@
     position: absolute;
     top: 50%;
     transform: translate(0, -70%);
-    color: #173A56;
+    color: $logo;
   }
 }

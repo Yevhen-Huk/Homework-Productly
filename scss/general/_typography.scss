@@ -9,6 +9,10 @@
 .h1 {
   font-size: 44px;
   line-height: 54px;
+
+  @media screen and (max-width: $md){
+    text-align: center;
+  }
 }
 
 .h3 {
@@ -18,18 +22,29 @@
   display: inline-block;
   margin-top: 3px;
   margin-bottom: 5px;
+  line-height: 54px;
 }
 
 .h4 {
   font-weight: 600;
   font-size: 22px;
   line-height: 33px;
+
+  @media screen and (max-width: $md){
+    text-align: center;
+  }
 }
 
 .banner__p {
   font-size: 18px;
   line-height: 28px;
   color: $secondary-color;
+}
+
+.main__feature-subscription {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
 }
 
 li {

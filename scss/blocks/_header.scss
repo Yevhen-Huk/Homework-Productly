@@ -3,13 +3,24 @@
   flex-wrap: wrap;
   flex-direction: row;
   position: relative;
-  padding: 19px 135px 0 0;
+  padding: 19px 5px 35px 0;
   border-bottom: 1px solid #000000;
+
+  @media screen and (max-width: $md){
+    flex-direction: column;
+    /*align-items: center;*/
+    padding: 19px 15px;
+  }
 
   &__logo {
     position: relative;
     top: 23px;
     margin-bottom: 20px;
+
+    @media screen and (max-width: $md) {
+      /*margin: 0 auto 20px;
+      right: 84px;*/
+      }
   }
 
   &__nav {
@@ -19,6 +30,11 @@
     list-style: none;
     flex-direction: column;
     align-self: end;
+
+    @media screen and (max-width: $md) {
+      order: 2;
+      margin: 0 auto;
+      }
     }
 
   &__nav-list {
@@ -27,6 +43,19 @@
     list-style: none;
     align-self: flex-end;
     padding-right: 50px;
+
+    @media screen and (max-width: $md){
+      flex-direction: column;
+      padding: 10px 0;
+      margin: 0 auto;
+      width: 14em;
+      text-align: center;
+      display: none;
+      }
+
+      .menu__open & {
+        display: flex;
+      }
     }
 
     &__nav-item {
@@ -36,12 +65,32 @@
     line-height: 28px;
     color: #2f281e;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  }
+
+      @media screen and (max-width: $md){
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 5px;
+        border-radius: 4px;
+        border: 1px solid $secondary-color;
+      }
+    }
 
   &__buttons {
 
     display: flex;
     align-items: center;
+    padding-right: 35px;
+
+    .menu__open & {
+      display: flex;
+    }
+
+    @media screen and (max-width: $md) {
+      order: 1;
+      margin: 0 auto;
+      padding: 0;
+      display: none;
+    }
   }
 }
 

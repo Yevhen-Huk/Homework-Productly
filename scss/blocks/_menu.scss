@@ -1,0 +1,49 @@
+.header {
+  &__menu-btn {
+    position: relative;
+    font-size: 34px;
+    display: none;
+    border: 1px solid $main-color;
+    border-radius: 4px;
+    color: $logo;
+    padding: 0 5px;
+    cursor: pointer;
+
+    &__i {
+      position: relative;
+      bottom: 6px;
+      width: 100%;
+    }
+
+    @media screen and (max-width: $md){
+      display: block;
+      align-self: end;
+      transform: translate(0, -30px);
+      }
+  }
+}
+
+.footer {
+  &__menu-btn {
+    position: relative;
+    font-size: 34px;
+    display: none;
+    border: 1px solid $main-color;
+    border-radius: 4px;
+    color: $logo;
+    padding: 0 5px;
+    cursor: pointer;
+
+    &__i {
+      position: relative;
+      bottom: 6px;
+      width: 100%;
+    }
+
+    @media screen and (max-width: $md){
+      display: block;
+      align-self: end;
+      transform: translate(0, -30px);
+    }
+  }
+}
